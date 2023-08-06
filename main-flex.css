@@ -1,0 +1,64 @@
+main {
+    margin: 10px;
+}
+
+#search {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#search-input {
+    width: 100%;
+    height: 30px;
+}
+
+#search-button {
+    width: 100px;
+    padding: 6px;
+    border: 1px solid black;
+    height: 36px;
+}
+
+#display-superhero, #display-fav-superhero{
+    /* width: 99%; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+#superhero-box {
+    margin: 20px;
+    display: flex;
+    height: 110px;
+    width: 300px;
+    background-color: rgb(93, 47, 47);
+    box-shadow: 0 0 10px black;
+    overflow: auto;
+
+}
+
+
+
+#superhero-box span{
+    
+    font-size: 1.75rem;
+}
+
+#superhero-image{
+    width: 100px;
+    overflow: hidden;
+    margin-right: 25px;
+}
+#superhero-image img{
+    height: 100%;
+}
+
+
+#loading{
+    margin: auto;
+    text-align: center;
+}

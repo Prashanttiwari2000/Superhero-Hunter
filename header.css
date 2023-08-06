@@ -1,0 +1,49 @@
+html{
+    background-color: rgb(49, 12, 12);
+    color:white;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    border-bottom: 1px solid lightgray;
+    background-color: rgb(93, 47, 47);
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    
+    
+}
+
+.fav{
+    margin-block: auto;
+}
+
+.fav a {
+    color:white;
+    text-decoration: none;
+    word-spacing: 10px;
+    margin-right: 10px;
+}
+h2{
+    color:white;
+    margin-left: 10px;
+}
+
+.head-title h2 a {
+    text-decoration: none;
+}
+
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+#dislike{
+    color: gray;
+}
+
+#like-button{
+    color: rgb(255, 102, 102);
+}
